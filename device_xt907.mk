@@ -63,7 +63,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.mot.ignore_csim_appid=true \
     telephony.rilV7NeedCDMALTEPhone=true \
     ro.cdma.subscribe_on_ruim_ready=true \
-    persist.timed.enable=true
+    persist.timed.enable=true \
+    ro.config.qc_lte_network_modes=true
 
 # IDC
 PRODUCT_COPY_FILES += \
